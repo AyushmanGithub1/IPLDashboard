@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏏 IPL Dashboard (Next.js + TypeScript + Tailwind CSS)
+A simple yet visually appealing IPL dashboard showcasing live match details, points table, match schedule, team performance trends, and real-time notifications — built using Next.js, TypeScript, and Tailwind CSS.
 
-## Getting Started
+<!-- Replace with your actual screenshot path if available -->
 
-First, run the development server:
+🔥 Features
+⚡ Live/Upcoming Matches with scores and match situation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📅 Match Schedule section for upcoming fixtures
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📊 Points Table with recent form indicators
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📈 Team Performance Charts using react-chartjs-2
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔔 Toast Notifications for events like milestones/wickets
 
-## Learn More
+🎨 Animated Background Slideshow (bat, ball, and players)
 
-To learn more about Next.js, take a look at the following resources:
+💨 Fully responsive and accessible UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📦 Tech Stack
+Tech	Usage
+Next.js	Framework (Static Site Generation)
+TypeScript	Type safety across components
+Tailwind CSS	Utility-first styling
+Chart.js + React ChartJS	Data visualization
+React Hooks	State and effect management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🧠 TypeScript Concepts Used
+Interfaces (Match, MatchScheduleEntry, TeamStats, etc.)
 
-## Deploy on Vercel
+Props typing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Optional and union types
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Functional component typing (React.FC)
+
+Type-safe state with useState
+
+📁 Folder Structure (Simplified)
+arduino
+Copy
+Edit
+/app
+  ├── components/
+  │   ├── NavBar.tsx
+  │   ├── MatchCard.tsx
+  │   ├── PointsTable.tsx
+  │   ├── MatchSchedule.tsx
+  │   ├── PerformanceTrendChart.tsx
+  │   ├── PointsBarChart.tsx
+  │   └── ToastNotification.tsx
+  ├── matches.ts
+  ├── globals.css
+  ├── layout.tsx
+  └── page.tsx (entry point)
+
+🖼️ Background Images
+The background includes a rotating slideshow of cricket images with a soft overlay to maintain readability. You can replace the images in /public like /hitman3.jpg, /kohli1.jpg, etc.
+
+📈 Sample Charts
+Bar Chart for team points
+
+Line Chart for performance trends across matches
+(Powered by react-chartjs-2)
+
+✨ Credits
+Image assets from Unsplash / [Google Images]
+
+Inspiration from IPL’s official UI
+
+Built with ❤️ using React + Tailwind CSS
+
+🧪 Deployment 
