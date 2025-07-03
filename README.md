@@ -71,4 +71,5 @@ Inspiration from IPL’s official UI
 
 Built with ❤️ using React + Tailwind CSS
 
-🧪 Deployment 
+🧪 Deployment Link
+https://ipl-dashboard-iota-mauve.vercel.app/#live
